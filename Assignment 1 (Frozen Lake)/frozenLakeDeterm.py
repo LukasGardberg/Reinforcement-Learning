@@ -4,6 +4,9 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
+# Solution to the deterministic frozen lake problem
+# through OpenAi's Gym environment using Policy Evaluation
+
 # load frozen lake env and change to deterministic behavior
 gym.envs.register(
     id='FrozenLakeNotSlippery-v0',
